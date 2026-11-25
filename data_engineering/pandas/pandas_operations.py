@@ -57,5 +57,3 @@ print("Value_Counts :",df["Country"].value_counts())
 #group by country price sum
 print("Group By : ", df.groupby("Country")["Price"].sum())
 
-#group by country price count
-print("Group By : ", df.groupby("Country")["Product"].count)
